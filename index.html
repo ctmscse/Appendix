@@ -1,87 +1,87 @@
-<html>
+<!DOCTYPE html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Computational Thinking in Middle School: What Do Teachers Think? - Appendix</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://ctmscse.github.io/SIGCSE50/index_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:DengXian;
-	panose-1:3 0 5 9 0 0 0 0 0 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:"\@DengXian";
-	panose-1:3 0 5 9 0 0 0 0 0 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:#954F72;
-	text-decoration:underline;}
-.MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://ctmscse.github.io/SIGCSE50/index_files/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ctmscse.github.io/SIGCSE50/index_files/jquery.min.js.download" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://ctmscse.github.io/SIGCSE50/index_files/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://ctmscse.github.io/SIGCSE50/index_files/jquery.dataTables.js.download"></script>
+    <style>
+        html, body {
+            height:100%;
+            width:100%;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            grid-area: header;
+            position: sticky;
+            padding:15px;
+            place-self: center;
+        }
+        .main {
+            grid-area: main;
+            padding:15px;
+        }
+        .sidebar {
+            grid-area: sidebar;
+            padding:15px;
+        }
+        .footer{
+            grid-area: footer;
+            position: sticky;
+            padding:15px;
+            place-self: center;
+        }
 
+        .s-container {
+            display: grid;
+            min-height: 100%;
+            grid-template-columns: 250px auto;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                    "header header"
+                    "sidebar main"
+                    "footer footer";
+        }
+
+        main.main iframe {
+            width:100%;
+            height:100%;
+            border: none 0;
+        }
+    </style>
+    <script>
+        var now = new Date();
+        $(function() {
+            $('.sidebar a.external').click(function() {
+                var href = $(this).attr("href");
+                $('main.main iframe').attr("src",href);
+                return false;
+            });
+            $('#copyright-year').html(now.getFullYear());
+        });
+    </script>
 </head>
+<body>
+<div class="s-container">
+    <header class="header"><h1>Computational Thinking in Middle School: What Do Teachers Think? - Appendix</h1></header>
+    <div class="sidebar">
+        <ul>
+            <li><a class="external" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgYvv0rha5z5mRRJjeHvnEmidOQf73j8ZE1TnI8MuJGH4kFhhP7LMW-hkG5muBrZAa-KVsPl8Q7_WG/pubhtml?gid=1145049726&amp;single=true&amp;widget=true&amp;headers=false">Survey Results: Summary</a></li>
+            <li><a class="external" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgYvv0rha5z5mRRJjeHvnEmidOQf73j8ZE1TnI8MuJGH4kFhhP7LMW-hkG5muBrZAa-KVsPl8Q7_WG/pubhtml?gid=2015520902&amp;single=true&amp;widget=true&amp;headers=false">Survey Results: Raw Data</a></li>
+            <li><a class="external" href="https://ctmscse.github.io/SIGCSE50/SemistructuredInterviewProtocolQuestions.html">Semi-structured Interview Protocol</a></li>
+            <li><a class="external" href="https://ctmscse.github.io/SIGCSE50/DesignThinkingOutline.html">Design Thinking Outline</a></li>
+            <li><a target="_blank" href="https://ctmscse.github.io/SIGCSE50/Teaching%20and%20Learning%20with%20Scratch%20Survey.pdf">Teaching and Learning with Scratch Survey</a></li>
+        </ul>
+    </div>
+    <main class="main">
+        <iframe src="https://ctmscse.github.io/SIGCSE50/index_files/pubhtml.html"></iframe>
+    </main>
+    </div>
 
-<body lang=EN-US link="#0563C1" vlink="#954F72">
-
-<div class=WordSection1>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:107%'>Computational Thinking in Middle
-School: What Do Teachers Think?</span><br>
-Appendix</p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal><a
-href="https://ctmscse.github.io/SIGCSE50/Teaching%20and%20Learning%20with%20Scratch%20Survey.pdf">Teaching
-and Learning with Scratch Survey</a></p>
-
-<p class=MsoNormal><a
-href="https://ctmscse.github.io/SIGCSE50/Teaching%20and%20Learning%20with%20Scratch%20-%20Anonymous%20Results.xlsx">Survey
-Results</a></p>
-
-<p class=MsoNormal><a
-href="https://ctmscse.github.io/SIGCSE50/SemistructuredInterviewProtocolQuestions.html">Semi-structured
-Interview Protocol</a></p>
-
-<p class=MsoNormal><a
-href="https://ctmscse.github.io/SIGCSE50/DesignThinkingOutline.html">Design
-Thinking Outline</a></p>
-
-</div>
-
-</body>
-
-</html>
+</body></html>
